@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">SAR</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps_lacak_tim">Map</string>
+    <string name="title_activity_maps_lokasi_evakuasi">Map</string>
+
+    <string-array name="android_dropdown_arrays">
+        <item>Pilih Tim</item>
+        <item>Tim 1</item>
+        <item>Tim 2</item>
+        <item>Tim 3</item>
+        <item>Tim 4</item>
+        <item>Tim 5</item>
+        <item>Tim 6</item>
+        <item>Tim 7</item>
+        <item>Tim 8</item>
+        <item>Tim 9</item>
+        <item>Tim 10</item>
+        <item>Tim 11</item>
+        <item>Tim 12</item>
+        <item>Tim 13</item>
+        <item>Tim 14</item>
+        <item>Tim 15</item>
+        <item>Tim 16</item>
+        <item>Tim 17</item>
+        <item>Tim 18</item>
+        <item>Tim 19</item>
+        <item>Tim 20</item>
+
+    </string-array>
+
+
+</resources>

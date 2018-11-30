@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.home">
+
+
+    <include layout="@layout/activity_maps"/>
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+    <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:background="@color/toolbar"
+            app:title="Home"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+    <TextView
+        android:id="@+id/ayah"
+        android:layout_marginTop="150dp"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:text="TOMBOL ALARM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <ProgressBar
+        android:id="@+id/progressBarGps"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:indeterminateDrawable="@drawable/ustom_progress_dialog"
+        android:indeterminate="true"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="170dp" />
+
+
+    <Button
+        android:id="@+id/tmbl_on"
+         android:layout_centerVertical="true"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/circle_button"
+        android:text="ALARM"/>
+
+
+    <TextView
+                android:layout_marginTop="150dp"
+        android:textAlignment="center"
+        android:textSize="17dp"
+        android:layout_marginBottom="200dp"
+        android:layout_alignParentBottom="true"
+        android:text="Lokasi Saat Ini"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtKoordinat"
+        android:layout_marginTop="150dp"
+        android:textAlignment="center"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginBottom="170dp"
+        android:layout_alignParentBottom="true"
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonLacak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="90dp"
+        android:background="@drawable/input_background"
+        android:text="Lacak Tim" />
+
+
+</RelativeLayout>

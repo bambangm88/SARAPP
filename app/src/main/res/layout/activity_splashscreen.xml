@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent"
+    tools:context=".splashscreen">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_marginTop="240dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/sarlogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:layout_below="@+id/img"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:text="SAR KUNINGAN"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:indeterminateDrawable="@drawable/ustom_progress_dialog"
+        android:indeterminate="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="58dp" />
+
+</RelativeLayout>
